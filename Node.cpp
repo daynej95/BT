@@ -1,3 +1,4 @@
+/*
 #include "Node.h"
 
 template <typename T, typename CMP = std::less()>
@@ -9,3 +10,12 @@ Node<T, CMP>::Node(){
 		LChild = nullptr;
 		Rchild = nullptr;
 }
+
+template <typename T, typename CMP = std::less()>
+
+Node<T, CMP>::Node(const Node& rhs){
+
+
+
+}
+*/

@@ -17,7 +17,14 @@ class Node {
 
 public:
 
-	Node(); //default constructor
+	//default constructor
+	Node(){
+
+		val = T();
+		parent = nullptr;
+		LChild = nullptr;
+		Rchild = nullptr;
+	}
 
 
 
