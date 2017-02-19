@@ -34,6 +34,12 @@ protected:
 	T val;
 	Node* parent, Lchild, Rchild;
 
+	//swap function
+	void swap(Node& lhs, Node& rhs){
+
+		std::swap(lhs.val, rhs.val);
+	}
+
 
 };
 
