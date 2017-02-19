@@ -26,7 +26,10 @@ public:
 		Rchild = nullptr;
 	}
 
-
+	Node operator=(Node rhs){
+		swap(*this, rhs);
+		return *this;
+	}
 
 
 protected:
