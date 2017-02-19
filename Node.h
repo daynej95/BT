@@ -1,4 +1,12 @@
+/////////////////////
+// Node class. Each node has a parent and two children. Will be used to implement binary tree.
+//
+//
+//
+//////////////////////
+
 #include <functional>
+
 
 #ifndef _BINARYTREE_H_
 #define _BINARYTREE_H_
@@ -9,7 +17,10 @@ class Node {
 
 public:
 
-	Node();
+	Node(); //default constructor
+
+
+
 
 protected:
 
